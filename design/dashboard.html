@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wallet Wise - Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Salta al contenuto</a>
+  <div class="app">
+    <header class="topbar" role="banner">
+      <button class="icon-btn" aria-label="Apri menu"><i class="fa-solid fa-bars"></i></button>
+      <div class="title">Wallet Wise</div>
+      <div class="header-actions">
+        <button class="icon-btn" aria-label="Profilo"><i class="fa-regular fa-user"></i></button>
+        <button class="icon-btn" aria-label="Impostazioni" onclick="location.href='settings.html'"><i class="fa-solid fa-gear"></i></button>
+      </div>
+    </header>
+
+    <main id="main" class="container">
+      <h2 class="section-title">Health Score</h2>
+      <section class="card reveal" aria-labelledby="hs-title">
+        <div id="hs-title" class="visually-hidden">Punteggio Salute Finanziaria</div>
+        <div class="progress-ring" aria-label="Punteggio 85 su 100" role="img">
+          <svg width="180" height="180">
+            <circle cx="90" cy="90" r="78" stroke="#E7EFEA" stroke-width="12" fill="none"/>
+            <circle cx="90" cy="90" r="78" stroke="var(--primary)" stroke-width="12" stroke-linecap="round" fill="none"
+              stroke-dasharray="490" stroke-dashoffset="73"/>
+          </svg>
+          <div class="center">
+            <div class="score">85</div>
+            <div class="sub">/100</div>
+            <div class="icon"><i class="fa-regular fa-face-smile"></i></div>
+            <div class="small">Ottimo!</div>
+          </div>
+        </div>
+      </section>
+
+  <h2 class="section-title">Panoramica rapida</h2>
+  <section class="grid-3 reveal">
+        <div class="kpi reveal" aria-label="Speso 850 di 1200">
+          <div class="label">Speso</div>
+          <div class="value">€850</div>
+          <div class="small">di €1200</div>
+          <div class="progress-bar mt-8" aria-hidden="true"><span class="w-70"></span></div>
+        </div>
+        <div class="kpi reveal" aria-label="Top categoria Alimentari €320 38%">
+          <div class="label">Top Categoria</div>
+          <div class="value">Alimentari</div>
+          <div class="small">€320 • 38%</div>
+        </div>
+        <div class="kpi reveal" aria-label="Giorni rimasti 12, €29/giorno">
+          <div class="label">Giorni rimasti</div>
+          <div class="value">12</div>
+          <div class="small">€29/giorno</div>
+        </div>
+      </section>
+
+      <div class="row mt-24 jc-between ai-center">
+        <h2 class="section-title m-0">Transazioni Recenti</h2>
+        <a href="transactions.html" class="small">Vedi tutte</a>
+      </div>
+      <section class="list" aria-label="Transazioni recenti">
+  <article class="list-item reveal" data-i="0">
+          <div class="icon" aria-hidden="true"><i class="fa-solid fa-pizza-slice"></i></div>
+          <div>
+            <div>Spesa Esselunga <span class="small">• Alimentari</span></div>
+            <div class="meta">13/09</div>
+          </div>
+          <div aria-label="Importo uscita">-€25,50</div>
+        </article>
+  <article class="list-item reveal" data-i="1">
+          <div class="icon" aria-hidden="true"><i class="fa-solid fa-gas-pump"></i></div>
+          <div>
+            <div>Benzina IP <span class="small">• Trasporti</span></div>
+            <div class="meta">12/09</div>
+          </div>
+          <div>-€45,00</div>
+        </article>
+  <article class="list-item reveal" data-i="2">
+          <div class="icon" aria-hidden="true"><i class="fa-solid fa-sack-dollar"></i></div>
+          <div>
+            <div>Stipendio <span class="small">• Lavoro</span></div>
+            <div class="meta">01/09</div>
+          </div>
+          <div class="text-success">+€2.100,00</div>
+        </article>
+      </section>
+      <div class="bottom-space"></div>
+    </main>
+
+    <nav class="bottom-nav" role="navigation" aria-label="Navigazione inferiore">
+      <a href="dashboard.html" aria-current="page" aria-label="Home"><i class="fa-solid fa-house"></i><span class="visually-hidden">Home</span></a>
+      <a href="report.html" aria-label="Report"><i class="fa-solid fa-chart-pie"></i><span class="visually-hidden">Report</span></a>
+      <a href="camera-ocr.html" aria-label="Fotocamera"><i class="fa-solid fa-camera"></i><span class="visually-hidden">Fotocamera</span></a>
+      <a href="health-score.html" aria-label="Health Score"><i class="fa-solid fa-gauge-high"></i><span class="visually-hidden">Health Score</span></a>
+      <a href="settings.html" aria-label="Impostazioni"><i class="fa-solid fa-gear"></i><span class="visually-hidden">Impostazioni</span></a>
+    </nav>
+
+    <button class="fab" aria-label="Aggiungi transazione" onclick="location.href='add-transaction.html'"><i class="fa-solid fa-plus"></i></button>
+  </div>
+</body>
+</html>

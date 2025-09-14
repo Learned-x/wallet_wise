@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gestisci Categorie</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Salta al contenuto</a>
+  <div class="app">
+    <header class="topbar">
+      <button class="icon-btn" aria-label="Indietro" onclick="history.back()"><i class="fa-solid fa-arrow-left"></i></button>
+      <div class="title">Gestisci Categorie</div>
+      <button class="icon-btn" aria-label="Aggiungi" onclick="alert('Crea categoria')"><i class="fa-solid fa-plus"></i></button>
+    </header>
+
+    <main id="main" class="container">
+  <h2 class="section-title">Uscite</h2>
+      <section class="list reveal">
+        <div class="list-item" data-i="0">
+          <div class="icon"><i class="fa-solid fa-pizza-slice"></i></div>
+          <div>Alimentari & Ristoranti<br><span class="small">€485 • 23 transazioni</span></div>
+          <button class="icon-btn" aria-label="Azioni categoria"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+        </div>
+  <div class="list-item" data-i="1">
+          <div class="icon"><i class="fa-solid fa-car"></i></div>
+          <div>Trasporti & Carburante<br><span class="small">€280 • 8 transazioni</span></div>
+          <button class="icon-btn" aria-label="Azioni categoria"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+        </div>
+  <div class="list-item" data-i="2">
+          <div class="icon"><i class="fa-solid fa-house"></i></div>
+          <div>Casa & Bollette<br><span class="small">€400 • 3 transazioni</span></div>
+          <button class="icon-btn" aria-label="Azioni categoria"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+        </div>
+  <div class="list-item" data-i="3">
+          <div class="icon"><i class="fa-solid fa-briefcase-medical"></i></div>
+          <div>Salute & Farmaci<br><span class="small">€65 • 2 transazioni</span></div>
+          <button class="icon-btn" aria-label="Azioni categoria"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+        </div>
+  <div class="list-item" data-i="4">
+          <div class="icon"><i class="fa-solid fa-clapperboard"></i></div>
+          <div>Intrattenimento<br><span class="small">€45 • 3 transazioni</span></div>
+          <button class="icon-btn" aria-label="Azioni categoria"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+        </div>
+      </section>
+
+  <h2 class="section-title">Entrate</h2>
+      <section class="list reveal">
+        <div class="list-item" data-i="0">
+          <div class="icon"><i class="fa-solid fa-sack-dollar"></i></div>
+          <div>Stipendio & Lavoro<br><span class="small">€2.100 • 1 transazione</span></div>
+          <button class="icon-btn" aria-label="Azioni categoria"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+        </div>
+  <div class="list-item" data-i="1">
+          <div class="icon"><i class="fa-solid fa-chart-line"></i></div>
+          <div>Altri Ricavi<br><span class="small">€0 • 0 transazioni</span></div>
+          <button class="icon-btn" aria-label="Azioni categoria"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+        </div>
+      </section>
+
+  <h2 class="section-title">Categorie personalizzate</h2>
+  <section class="card center reveal">
+        <p class="small">Nessuna categoria personalizzata</p>
+        <button class="btn btn-outline"><i class="fa-solid fa-plus"></i> Crea Categoria</button>
+      </section>
+
+      <div class="bottom-space"></div>
+    </main>
+
+    <nav class="bottom-nav" role="navigation" aria-label="Navigazione inferiore">
+      <a href="dashboard.html" aria-label="Home"><i class="fa-solid fa-house"></i><span class="visually-hidden">Home</span></a>
+      <a href="report.html" aria-label="Report"><i class="fa-solid fa-chart-pie"></i><span class="visually-hidden">Report</span></a>
+      <a href="camera-ocr.html" aria-label="Fotocamera"><i class="fa-solid fa-camera"></i><span class="visually-hidden">Fotocamera</span></a>
+      <a href="health-score.html" aria-label="Health Score"><i class="fa-solid fa-gauge-high"></i><span class="visually-hidden">Health Score</span></a>
+      <a href="settings.html" aria-current="page" aria-label="Impostazioni"><i class="fa-solid fa-gear"></i><span class="visually-hidden">Impostazioni</span></a>
+    </nav>
+  </div>
+</body>
+</html>

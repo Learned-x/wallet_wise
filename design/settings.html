@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Impostazioni</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Salta al contenuto</a>
+  <div class="app">
+    <header class="topbar">
+      <button class="icon-btn" aria-label="Indietro" onclick="history.back()"><i class="fa-solid fa-arrow-left"></i></button>
+      <div class="title">Impostazioni</div>
+      <span aria-hidden="true"></span>
+    </header>
+
+    <main id="main" class="container">
+      <h2 class="section-title">Account</h2>
+  <section class="list reveal">
+        <a class="list-item" href="#" role="button" aria-label="Il tuo profilo">
+          <div class="icon"><i class="fa-regular fa-user"></i></div><div>Il tuo profilo</div><div>›</div>
+        </a>
+        <a class="list-item" href="#" role="button" aria-label="Privacy e Sicurezza">
+          <div class="icon"><i class="fa-solid fa-lock"></i></div><div>Privacy & Sicurezza</div><div>›</div>
+        </a>
+        <a class="list-item" href="#" role="button" aria-label="Backup e Ripristino">
+          <div class="icon"><i class="fa-solid fa-mobile-screen-button"></i></div><div>Backup & Ripristino</div><div>›</div>
+        </a>
+      </section>
+
+      <h2 class="section-title">Personalizza</h2>
+  <section class="list reveal">
+        <a class="list-item" href="#" role="button" aria-label="Tema">
+          <div class="icon"><i class="fa-solid fa-palette"></i></div><div>Tema</div><div>›</div>
+        </a>
+        <a class="list-item" href="categories.html" role="button" aria-label="Gestisci Categorie">
+          <div class="icon"><i class="fa-solid fa-tags"></i></div><div>Gestisci Categorie</div><div>›</div>
+        </a>
+        <a class="list-item" href="#" role="button" aria-label="Valuta">
+          <div class="icon"><i class="fa-solid fa-euro-sign"></i></div><div>Valuta: EUR</div><div>›</div>
+        </a>
+        <a class="list-item" href="#" role="button" aria-label="Lingua">
+          <div class="icon"><i class="fa-solid fa-globe"></i></div><div>Lingua: Italiano</div><div>›</div>
+        </a>
+      </section>
+
+      <h2 class="section-title">Features</h2>
+      <section class="card reveal">
+        <div class="row jc-between ai-center mb-10">
+          <div><i class="fa-solid fa-robot" aria-hidden="true"></i> Auto-categorizzazione</div>
+          <label class="toggle" aria-label="Auto-categorizzazione">
+            <input type="checkbox" checked />
+            <span class="knob"></span><span class="track"></span>
+          </label>
+        </div>
+        <div class="row jc-between ai-center mb-10">
+          <div><i class="fa-solid fa-gauge-high" aria-hidden="true"></i> Health Score</div>
+          <label class="toggle" aria-label="Health Score">
+            <input type="checkbox" checked />
+            <span class="knob"></span><span class="track"></span>
+          </label>
+        </div>
+        <div class="row jc-between ai-center mb-10">
+          <div><i class="fa-solid fa-camera" aria-hidden="true"></i> OCR automatico</div>
+          <label class="toggle" aria-label="OCR automatico">
+            <input type="checkbox" />
+            <span class="knob"></span><span class="track"></span>
+          </label>
+        </div>
+        <div class="row jc-between ai-center">
+          <div><i class="fa-regular fa-bell" aria-hidden="true"></i> Notifiche</div>
+          <label class="toggle" aria-label="Notifiche">
+            <input type="checkbox" />
+            <span class="knob"></span><span class="track"></span>
+          </label>
+        </div>
+      </section>
+
+      <h2 class="section-title">Supporto</h2>
+  <section class="list reveal">
+        <a class="list-item" href="#" role="button" aria-label="Centro Assistenza">
+          <div class="icon"><i class="fa-regular fa-circle-question"></i></div><div>Centro Assistenza</div><div>›</div>
+        </a>
+        <a class="list-item" href="#" role="button" aria-label="Contattaci">
+          <div class="icon"><i class="fa-regular fa-comments"></i></div><div>Contattaci</div><div>›</div>
+        </a>
+        <a class="list-item" href="#" role="button" aria-label="Valuta l'App">
+          <div class="icon"><i class="fa-regular fa-star"></i></div><div>Valuta l'App</div><div>›</div>
+        </a>
+        <a class="list-item" href="#" role="button" aria-label="Info su Wallet Wise">
+          <div class="icon"><i class="fa-solid fa-circle-info"></i></div><div>Info su Wallet Wise</div><div>›</div>
+        </a>
+      </section>
+
+  <p class="small center mt-16">v1.0.0</p>
+      <div class="bottom-space"></div>
+    </main>
+
+    <nav class="bottom-nav" role="navigation" aria-label="Navigazione inferiore">
+      <a href="dashboard.html" aria-label="Home"><i class="fa-solid fa-house"></i><span class="visually-hidden">Home</span></a>
+      <a href="report.html" aria-label="Report"><i class="fa-solid fa-chart-pie"></i><span class="visually-hidden">Report</span></a>
+      <a href="camera-ocr.html" aria-label="Fotocamera"><i class="fa-solid fa-camera"></i><span class="visually-hidden">Fotocamera</span></a>
+      <a href="health-score.html" aria-label="Health Score"><i class="fa-solid fa-gauge-high"></i><span class="visually-hidden">Health Score</span></a>
+      <a href="settings.html" aria-current="page" aria-label="Impostazioni"><i class="fa-solid fa-gear"></i><span class="visually-hidden">Impostazioni</span></a>
+    </nav>
+  </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nuova Transazione</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Salta al contenuto</a>
+  <div class="app">
+    <header class="topbar">
+      <button class="icon-btn" aria-label="Indietro" onclick="history.back()"><i class="fa-solid fa-arrow-left"></i></button>
+      <div class="title">Nuova Transazione</div>
+      <button class="icon-btn" aria-label="Conferma" onclick="alert('Salvato!')"><i class="fa-solid fa-check"></i></button>
+    </header>
+
+  <main id="main" class="container">
+      <div class="field">
+        <label for="amount">Importo</label>
+    <div class="row reveal">
+          <span class="badge" aria-hidden="true"><i class="fa-solid fa-euro-sign"></i></span>
+          <input id="amount" class="input" inputmode="decimal" placeholder="25,50" aria-describedby="amount-help" />
+        </div>
+        <div id="amount-help" class="small">Inserisci l'importo. Usa la virgola per i centesimi.</div>
+      </div>
+
+  <div class="field reveal">
+        <label>Categorie</label>
+        <div class="grid-3" role="list">
+          <button class="btn" role="listitem" aria-current="true" data-selected="true"><i class="fa-solid fa-pizza-slice"></i> Alimentari</button>
+          <button class="btn" role="listitem"><i class="fa-solid fa-car"></i> Trasporti</button>
+          <button class="btn" role="listitem"><i class="fa-solid fa-house"></i> Casa</button>
+          <button class="btn" role="listitem"><i class="fa-solid fa-briefcase-medical"></i> Salute</button>
+          <button class="btn" role="listitem"><i class="fa-solid fa-clapperboard"></i> Svago</button>
+          <button class="btn" role="listitem"><i class="fa-solid fa-shirt"></i> Abbigliamento</button>
+          <button class="btn" role="listitem"><i class="fa-solid fa-book"></i> Istruzione</button>
+          <button class="btn" role="listitem"><i class="fa-regular fa-futbol"></i> Sport</button>
+          <button class="btn" role="listitem"><i class="fa-solid fa-dog"></i> Animali</button>
+          <button class="btn" role="listitem"><i class="fa-solid fa-gift"></i> Regali</button>
+          <button class="btn" role="listitem"><i class="fa-solid fa-sack-dollar"></i> Entrate</button>
+          <button class="btn" role="listitem"><i class="fa-solid fa-chart-line"></i> Investimenti</button>
+        </div>
+      </div>
+
+  <div class="field reveal">
+        <label for="desc">Descrizione</label>
+        <input id="desc" class="input" placeholder="Spesa supermercato" />
+      </div>
+
+  <div class="field reveal">
+        <label for="date">Data</label>
+        <input id="date" class="input" type="date" value="2025-09-13" />
+      </div>
+
+  <div class="field reveal">
+        <label>Ricevuta</label>
+        <div class="grid-2">
+          <button class="btn btn-outline"><i class="fa-solid fa-camera"></i> Scatta foto</button>
+          <button class="btn btn-outline"><i class="fa-regular fa-image"></i> Galleria</button>
+        </div>
+      </div>
+
+  <button class="btn btn-primary btn-block reveal"><i class="fa-solid fa-floppy-disk"></i> Salva Transazione</button>
+      <div class="bottom-space"></div>
+    </main>
+
+    <nav class="bottom-nav" role="navigation" aria-label="Navigazione inferiore">
+      <a href="dashboard.html" aria-label="Home"><i class="fa-solid fa-house"></i><span class="visually-hidden">Home</span></a>
+      <a href="report.html" aria-label="Report"><i class="fa-solid fa-chart-pie"></i><span class="visually-hidden">Report</span></a>
+      <a href="camera-ocr.html" aria-current="page" aria-label="Fotocamera"><i class="fa-solid fa-camera"></i><span class="visually-hidden">Fotocamera</span></a>
+      <a href="health-score.html" aria-label="Health Score"><i class="fa-solid fa-gauge-high"></i><span class="visually-hidden">Health Score</span></a>
+      <a href="settings.html" aria-label="Impostazioni"><i class="fa-solid fa-gear"></i><span class="visually-hidden">Impostazioni</span></a>
+    </nav>
+  </div>
+</body>
+</html>

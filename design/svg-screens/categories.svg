@@ -1,0 +1,72 @@
+<svg width="375" height="812" viewBox="0 0 375 812" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Categories">
+  <rect width="375" height="812" fill="#F7F9F8"/>
+  <!-- Topbar -->
+  <rect x="0" y="0" width="375" height="56" fill="#FFFFFF" stroke="#E0E6E2"/>
+  <rect x="12" y="12" width="32" height="32" rx="8" fill="#EEF5F1"/>
+  <rect x="331" y="12" width="32" height="32" rx="8" fill="#EEF5F1"/>
+  <rect x="108" y="17" width="159" height="22" rx="6" fill="#DDE6E1"/>
+  <text x="28" y="29" font-size="18" fill="#1F2A1F" text-anchor="middle" dominant-baseline="middle">←</text>
+  <text x="347" y="28" font-size="16" fill="#1F2A1F" text-anchor="middle" dominant-baseline="middle">＋</text>
+  <text x="188" y="30" font-size="16" fill="#1F2A1F" text-anchor="middle">Categorie</text>
+
+  <!-- Sections -->
+  <rect x="24" y="76" width="110" height="16" rx="8" fill="#CBD7D0"/>
+  <!-- List of categories (5) -->
+  <g>
+    <rect x="24" y="100" width="327" height="64" rx="12" fill="#FFFFFF" stroke="#E0E6E2"/>
+    <rect x="36" y="112" width="40" height="40" rx="10" fill="#EEF5F1"/>
+    <rect x="86" y="116" width="180" height="12" rx="6" fill="#DDE6E1"/>
+    <rect x="86" y="132" width="120" height="10" rx="5" fill="#EEF2EF"/>
+    <text x="332" y="134" font-size="14" text-anchor="middle" fill="#1F2A1F">›</text>
+  </g>
+  <g transform="translate(0,70)">
+    <rect x="24" y="100" width="327" height="64" rx="12" fill="#FFFFFF" stroke="#E0E6E2"/>
+    <rect x="36" y="112" width="40" height="40" rx="10" fill="#EEF5F1"/>
+    <rect x="86" y="116" width="180" height="12" rx="6" fill="#DDE6E1"/>
+    <rect x="86" y="132" width="120" height="10" rx="5" fill="#EEF2EF"/>
+    <text x="332" y="134" font-size="14" text-anchor="middle" fill="#1F2A1F">›</text>
+  </g>
+  <g transform="translate(0,140)">
+    <rect x="24" y="100" width="327" height="64" rx="12" fill="#FFFFFF" stroke="#E0E6E2"/>
+    <rect x="36" y="112" width="40" height="40" rx="10" fill="#EEF5F1"/>
+    <rect x="86" y="116" width="180" height="12" rx="6" fill="#DDE6E1"/>
+    <rect x="86" y="132" width="120" height="10" rx="5" fill="#EEF2EF"/>
+    <text x="332" y="134" font-size="14" text-anchor="middle" fill="#1F2A1F">›</text>
+  </g>
+  <g transform="translate(0,210)">
+    <rect x="24" y="100" width="327" height="64" rx="12" fill="#FFFFFF" stroke="#E0E6E2"/>
+    <rect x="36" y="112" width="40" height="40" rx="10" fill="#EEF5F1"/>
+    <rect x="86" y="116" width="180" height="12" rx="6" fill="#DDE6E1"/>
+    <rect x="86" y="132" width="120" height="10" rx="5" fill="#EEF2EF"/>
+    <text x="332" y="134" font-size="14" text-anchor="middle" fill="#1F2A1F">›</text>
+  </g>
+  <g transform="translate(0,280)">
+    <rect x="24" y="100" width="327" height="64" rx="12" fill="#FFFFFF" stroke="#E0E6E2"/>
+    <rect x="36" y="112" width="40" height="40" rx="10" fill="#EEF5F1"/>
+    <rect x="86" y="116" width="180" height="12" rx="6" fill="#DDE6E1"/>
+    <rect x="86" y="132" width="120" height="10" rx="5" fill="#EEF2EF"/>
+    <text x="332" y="134" font-size="14" text-anchor="middle" fill="#1F2A1F">›</text>
+  </g>
+
+  <!-- Entrate section -->
+  <rect x="24" y="466" width="80" height="16" rx="8" fill="#CBD7D0"/>
+  <text x="34" y="478" font-size="12" fill="#1F2A1F">Entrate</text>
+  <g>
+    <rect x="24" y="490" width="327" height="64" rx="12" fill="#FFFFFF" stroke="#E0E6E2"/>
+    <rect x="36" y="502" width="40" height="40" rx="10" fill="#EEF5F1"/>
+    <rect x="86" y="506" width="180" height="12" rx="6" fill="#DDE6E1"/>
+    <rect x="86" y="522" width="120" height="10" rx="5" fill="#EEF2EF"/>
+    <text x="332" y="524" font-size="14" text-anchor="middle" fill="#1F2A1F">›</text>
+  </g>
+  <g>
+    <rect x="24" y="560" width="327" height="64" rx="12" fill="#FFFFFF" stroke="#E0E6E2"/>
+    <rect x="36" y="572" width="40" height="40" rx="10" fill="#EEF5F1"/>
+    <rect x="86" y="576" width="180" height="12" rx="6" fill="#DDE6E1"/>
+    <rect x="86" y="592" width="120" height="10" rx="5" fill="#EEF2EF"/>
+    <text x="332" y="594" font-size="14" text-anchor="middle" fill="#1F2A1F">›</text>
+  </g>
+
+  <!-- Custom categories card -->
+  <rect x="24" y="636" width="327" height="96" rx="14" fill="#FFFFFF" stroke="#E0E6E2"/>
+  <text x="188" y="686" font-size="14" fill="#65756A" text-anchor="middle">Crea categoria personalizzata</text>
+</svg>

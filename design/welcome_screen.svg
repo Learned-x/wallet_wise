@@ -1,0 +1,30 @@
+<svg width="375" height="812" viewBox="0 0 375 812" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Gradient (Schematic) -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="812" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4CB8C4"/>
+      <stop offset="1" stop-color="#3CD3AD"/>
+    </linearGradient>
+  </defs>
+  <rect width="375" height="812" fill="url(#bg)" />
+  
+  <!-- Logo Placeholder -->
+  <rect x="112" y="56" width="150" height="60" rx="12" fill="#E6F7FA" stroke="#339999" stroke-width="2"/>
+  <text x="187.5" y="95" text-anchor="middle" font-size="18" fill="#339999" font-family="sans-serif">Logo Wallet Wise</text>
+  
+  <!-- Headline -->
+  <text x="187.5" y="160" text-anchor="middle" font-size="22" font-weight="bold" fill="#222" font-family="sans-serif">Prendi il controllo</text>
+  <text x="187.5" y="185" text-anchor="middle" font-size="18" fill="#222" font-family="sans-serif">delle tue finanze con l'AI</text>
+  
+  <!-- Illustration Placeholder -->
+  <rect x="87.5" y="210" width="200" height="120" rx="18" fill="#F0F4F7" stroke="#B8E2DC" stroke-width="2"/>
+  <text x="187.5" y="265" text-anchor="middle" font-size="14" fill="#339999" font-family="sans-serif">[Persona felice + grafici]</text>
+  
+  <!-- Button -->
+  <rect x="60" y="370" width="255" height="56" rx="28" fill="#3CD3AD" />
+  <text x="187.5" y="405" text-anchor="middle" font-size="20" fill="white" font-family="sans-serif">Inizia Subito</text>
+  
+  <!-- Sottotitolo rassicurante -->
+  <text x="187.5" y="445" text-anchor="middle" font-size="14" fill="#222" font-family="sans-serif">Nessun account richiesto</text>
+  <text x="187.5" y="465" text-anchor="middle" font-size="14" fill="#222" font-family="sans-serif">I tuoi dati restano nel tuo telefono</text>
+</svg>

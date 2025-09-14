@@ -1,0 +1,89 @@
+<svg width="375" height="812" viewBox="0 0 375 812" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Settings">
+  <rect width="375" height="812" fill="#F7F9F8"/>
+  <!-- Topbar -->
+  <rect x="0" y="0" width="375" height="56" fill="#FFFFFF" stroke="#E0E6E2"/>
+  <rect x="12" y="12" width="32" height="32" rx="8" fill="#EEF5F1"/>
+  <rect x="331" y="12" width="32" height="32" rx="8" fill="#EEF5F1"/>
+  <rect x="132" y="17" width="111" height="22" rx="6" fill="#DDE6E1"/>
+  <text x="28" y="29" font-size="18" fill="#1F2A1F" text-anchor="middle" dominant-baseline="middle">←</text>
+  <text x="347" y="28" font-size="16" fill="#1F2A1F" text-anchor="middle" dominant-baseline="middle">✓</text>
+  <text x="188" y="30" font-size="16" fill="#1F2A1F" text-anchor="middle">Impostazioni</text>
+
+  <!-- Lists -->
+  <rect x="24" y="76" width="140" height="16" rx="8" fill="#CBD7D0"/>
+  <text x="34" y="88" font-size="12" fill="#1F2A1F">Account</text>
+  <g>
+    <rect x="24" y="100" width="327" height="56" rx="12" fill="#FFFFFF" stroke="#E0E6E2"/>
+    <rect x="36" y="110" width="40" height="40" rx="10" fill="#EEF5F1"/>
+    <rect x="86" y="118" width="180" height="12" rx="6" fill="#DDE6E1"/>
+    <text x="86" y="118" font-size="12" fill="#1F2A1F" dy="-4">Profilo</text>
+  </g>
+  <g transform="translate(0,64)">
+    <rect x="24" y="100" width="327" height="56" rx="12" fill="#FFFFFF" stroke="#E0E6E2"/>
+    <rect x="36" y="110" width="40" height="40" rx="10" fill="#EEF5F1"/>
+    <rect x="86" y="118" width="180" height="12" rx="6" fill="#DDE6E1"/>
+    <text x="86" y="118" font-size="12" fill="#1F2A1F" dy="-4">Notifiche</text>
+  </g>
+  <g transform="translate(0,128)">
+    <rect x="24" y="100" width="327" height="56" rx="12" fill="#FFFFFF" stroke="#E0E6E2"/>
+    <rect x="36" y="110" width="40" height="40" rx="10" fill="#EEF5F1"/>
+    <rect x="86" y="118" width="180" height="12" rx="6" fill="#DDE6E1"/>
+    <text x="86" y="118" font-size="12" fill="#1F2A1F" dy="-4">Privacy</text>
+  </g>
+
+  <rect x="24" y="268" width="140" height="16" rx="8" fill="#CBD7D0"/>
+  <text x="34" y="280" font-size="12" fill="#1F2A1F">Funzionalità</text>
+  <g>
+    <rect x="24" y="292" width="327" height="56" rx="12" fill="#FFFFFF" stroke="#E0E6E2"/>
+    <rect x="36" y="302" width="40" height="40" rx="10" fill="#EEF5F1"/>
+    <rect x="86" y="310" width="180" height="12" rx="6" fill="#DDE6E1"/>
+    <text x="86" y="310" font-size="12" fill="#1F2A1F" dy="-4">Dark mode</text>
+  </g>
+  <g transform="translate(0,64)">
+    <rect x="24" y="292" width="327" height="56" rx="12" fill="#FFFFFF" stroke="#E0E6E2"/>
+    <rect x="36" y="302" width="40" height="40" rx="10" fill="#EEF5F1"/>
+    <rect x="86" y="310" width="180" height="12" rx="6" fill="#DDE6E1"/>
+    <text x="86" y="310" font-size="12" fill="#1F2A1F" dy="-4">Accessibilità</text>
+  </g>
+  <g transform="translate(0,128)">
+    <rect x="24" y="292" width="327" height="56" rx="12" fill="#FFFFFF" stroke="#E0E6E2"/>
+    <rect x="36" y="302" width="40" height="40" rx="10" fill="#EEF5F1"/>
+    <rect x="86" y="310" width="180" height="12" rx="6" fill="#DDE6E1"/>
+    <text x="86" y="310" font-size="12" fill="#1F2A1F" dy="-4">Sincronizzazione</text>
+  </g>
+
+  <!-- Feature toggles card -->
+  <rect x="24" y="452" width="327" height="140" rx="14" fill="#FFFFFF" stroke="#E0E6E2"/>
+  <rect x="40" y="474" width="200" height="12" rx="6" fill="#DDE6E1"/>
+  <rect x="280" y="468" width="40" height="24" rx="12" fill="#CED8D2"/>
+  <rect x="40" y="508" width="200" height="12" rx="6" fill="#DDE6E1"/>
+  <rect x="280" y="502" width="40" height="24" rx="12" fill="#CED8D2"/>
+  <rect x="40" y="542" width="200" height="12" rx="6" fill="#DDE6E1"/>
+  <rect x="280" y="536" width="40" height="24" rx="12" fill="#CED8D2"/>
+  <rect x="40" y="576" width="200" height="12" rx="6" fill="#DDE6E1"/>
+  <rect x="280" y="570" width="40" height="24" rx="12" fill="#CED8D2"/>
+
+  <rect x="24" y="628" width="150" height="16" rx="8" fill="#CBD7D0"/>
+  <text x="34" y="640" font-size="12" fill="#1F2A1F">Supporto</text>
+  <g>
+    <rect x="24" y="652" width="327" height="56" rx="12" fill="#FFFFFF" stroke="#E0E6E2"/>
+    <rect x="36" y="662" width="40" height="40" rx="10" fill="#EEF5F1"/>
+    <rect x="86" y="670" width="180" height="12" rx="6" fill="#DDE6E1"/>
+    <text x="86" y="670" font-size="12" fill="#1F2A1F" dy="-4">FAQ</text>
+  </g>
+  <g transform="translate(0,64)">
+    <rect x="24" y="652" width="327" height="56" rx="12" fill="#FFFFFF" stroke="#E0E6E2"/>
+    <rect x="36" y="662" width="40" height="40" rx="10" fill="#EEF5F1"/>
+    <rect x="86" y="670" width="180" height="12" rx="6" fill="#DDE6E1"/>
+    <text x="86" y="670" font-size="12" fill="#1F2A1F" dy="-4">Invia feedback</text>
+  </g>
+  <g transform="translate(0,128)">
+    <rect x="24" y="652" width="327" height="56" rx="12" fill="#FFFFFF" stroke="#E0E6E2"/>
+    <rect x="36" y="662" width="40" height="40" rx="10" fill="#EEF5F1"/>
+    <rect x="86" y="670" width="180" height="12" rx="6" fill="#DDE6E1"/>
+    <text x="86" y="670" font-size="12" fill="#1F2A1F" dy="-4">Contattaci</text>
+  </g>
+
+  <rect x="24" y="760" width="40" height="12" rx="6" fill="#DDE6E1"/>
+  <text x="74" y="770" font-size="10" fill="#65756A">v1.0</text>
+</svg>
