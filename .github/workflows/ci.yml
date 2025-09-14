@@ -24,7 +24,7 @@ jobs:
       - name: Run tests
         run: flutter test --coverage -r expanded
       - name: Run integration tests
-        run: flutter test test/integration -r expanded || true
+        run: flutter test test/integration -r expanded
       - name: Upload coverage artifact
         uses: actions/upload-artifact@v4
         with:
