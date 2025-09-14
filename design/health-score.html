@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Health Score - Dettagli</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Salta al contenuto</a>
+  <div class="app">
+    <header class="topbar">
+      <button class="icon-btn" aria-label="Indietro" onclick="history.back()"><i class="fa-solid fa-arrow-left"></i></button>
+      <div class="title">Health Score Dettagli</div>
+      <button class="icon-btn" aria-label="Informazioni"><i class="fa-solid fa-circle-info"></i></button>
+    </header>
+
+    <main id="main" class="container">
+  <section class="card center reveal">
+        <div class="small">Il tuo punteggio</div>
+        <div class="progress-ring" aria-label="Punteggio 85 su 100" role="img">
+          <svg width="180" height="180">
+            <circle cx="90" cy="90" r="78" stroke="#E7EFEA" stroke-width="12" fill="none"/>
+            <circle cx="90" cy="90" r="78" stroke="var(--primary)" stroke-width="12" stroke-linecap="round" fill="none"
+              stroke-dasharray="490" stroke-dashoffset="73"/>
+          </svg>
+          <div class="center">
+            <div class="score">85</div>
+            <div class="sub">Eccellente</div>
+            <div class="icon"><i class="fa-regular fa-face-smile"></i></div>
+          </div>
+        </div>
+      </section>
+
+      <h2 class="section-title">Breakdown</h2>
+      <section class="card reveal">
+        <div class="mb-10">📊 Budget Adherence — 90/100</div>
+        <div class="progress-bar" aria-label="Budget Adherence 90%"><span class="w-90"></span></div>
+
+        <div class="label-row">
+          <span>💰 Savings Rate — 85/100</span>
+        </div>
+  <div class="progress-bar" aria-label="Savings Rate 85%"><span class="w-85"></span></div>
+
+        <div class="label-row">
+          <span>📈 Spending Consistency — 80/100</span>
+        </div>
+  <div class="progress-bar" aria-label="Spending Consistency 80%"><span class="w-80"></span></div>
+
+        <div class="label-row">
+          <span>🔄 Improvement Trend — 85/100</span>
+        </div>
+  <div class="progress-bar" aria-label="Improvement Trend 85%"><span class="w-85"></span></div>
+      </section>
+
+  <h2 class="section-title">Insights</h2>
+  <section class="card reveal">
+        <ul>
+          <li>Stai risparmiando il 15% del tuo reddito — ottimo lavoro!</li>
+          <li>Le spese per alimentari sono leggermente sopra la media</li>
+          <li>Trend in miglioramento negli ultimi 30 giorni</li>
+        </ul>
+      </section>
+
+  <button class="btn btn-primary btn-block reveal"><i class="fa-solid fa-wand-magic-sparkles"></i> Migliora il Punteggio</button>
+      <div class="bottom-space"></div>
+    </main>
+
+    <nav class="bottom-nav" role="navigation" aria-label="Navigazione inferiore">
+      <a href="dashboard.html" aria-label="Home"><i class="fa-solid fa-house"></i><span class="visually-hidden">Home</span></a>
+      <a href="report.html" aria-label="Report"><i class="fa-solid fa-chart-pie"></i><span class="visually-hidden">Report</span></a>
+      <a href="camera-ocr.html" aria-label="Fotocamera"><i class="fa-solid fa-camera"></i><span class="visually-hidden">Fotocamera</span></a>
+      <a href="health-score.html" aria-current="page" aria-label="Health Score"><i class="fa-solid fa-gauge-high"></i><span class="visually-hidden">Health Score</span></a>
+      <a href="settings.html" aria-label="Impostazioni"><i class="fa-solid fa-gear"></i><span class="visually-hidden">Impostazioni</span></a>
+    </nav>
+  </div>
+</body>
+</html>

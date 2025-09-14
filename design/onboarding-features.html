@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wallet Wise - Onboarding</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Salta al contenuto</a>
+  <div class="app">
+    <header class="topbar">
+      <button class="btn btn-ghost" data-skip>Salta</button>
+      <div class="title"><span data-progress>1/3</span></div>
+      <span aria-hidden="true"></span>
+    </header>
+
+    <main id="main" class="container" data-slider>
+      <section data-slide class="reveal">
+        <div class="illustration" aria-hidden="true">Ring progress 85/100</div>
+        <h2 class="center mt-20">Health Score AI</h2>
+        <p class="center small">La tua salute finanziaria in un punteggio da 0 a 100, calcolato dall'intelligenza artificiale</p>
+      </section>
+
+      <section data-slide hidden class="reveal">
+        <div class="illustration" aria-hidden="true">Smartphone che scansiona una ricevuta</div>
+        <h2 class="center mt-20">Scansione Automatica</h2>
+        <p class="center small">Fotografa le ricevute ed estraiamo automaticamente importo, data e negozio</p>
+      </section>
+
+      <section data-slide hidden class="reveal">
+        <div class="illustration" aria-hidden="true">Scudo con lucchetto</div>
+        <h2 class="center mt-20">Privacy Totale</h2>
+        <p class="center small">Tutti i tuoi dati finanziari restano nel tuo telefono. Zero tracking, zero cloud</p>
+      </section>
+
+  <div class="row centered-row gap-16 my-16">
+        <button class="icon-btn" data-dot aria-label="Vai alla slide 1"><i class="fa-solid fa-circle"></i></button>
+        <button class="icon-btn" data-dot aria-label="Vai alla slide 2"><i class="fa-regular fa-circle"></i></button>
+        <button class="icon-btn" data-dot aria-label="Vai alla slide 3"><i class="fa-regular fa-circle"></i></button>
+      </div>
+
+      <button class="btn btn-primary btn-block" data-next>Avanti</button>
+    </main>
+  </div>
+</body>
+</html>

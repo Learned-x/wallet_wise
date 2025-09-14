@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dati Estratti - OCR</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Salta al contenuto</a>
+  <div class="app">
+    <header class="topbar">
+      <button class="icon-btn" aria-label="Indietro" onclick="history.back()"><i class="fa-solid fa-arrow-left"></i></button>
+      <div class="title">Dati Estratti</div>
+      <button class="icon-btn" aria-label="Conferma" onclick="alert('Salvato!')"><i class="fa-solid fa-check"></i></button>
+    </header>
+
+    <main id="main" class="container">
+      <section class="card reveal">
+        <div class="row jc-between ai-center">
+          <div>
+            <div class="small">Anteprima ricevuta</div>
+            <div class="badge"><i class="fa-solid fa-receipt"></i> Scansione</div>
+          </div>
+          <button class="btn btn-outline"><i class="fa-solid fa-magnifying-glass-plus"></i> Zoom</button>
+        </div>
+        <div class="illustration mt-12" aria-hidden="true">Thumbnail ricevuta</div>
+      </section>
+
+      <p class="badge mt-16"><i class="fa-solid fa-circle-check"></i> Dati estratti automaticamente</p>
+
+      <div class="field">
+        <label for="amount">Importo</label>
+        <input id="amount" class="input" value="25,50" aria-describedby="importo-ok" />
+  <div id="importo-ok" class="small text-success"><i class="fa-solid fa-check"></i> Riconosciuto</div>
+      </div>
+
+      <div class="field">
+        <label for="store">Negozio</label>
+        <input id="store" class="input" value="Esselunga" aria-describedby="store-ok" />
+  <div id="store-ok" class="small text-success"><i class="fa-solid fa-check"></i> Riconosciuto</div>
+      </div>
+
+      <div class="field">
+        <label for="date">Data</label>
+        <input id="date" type="date" class="input" value="2025-09-13" aria-describedby="date-ok" />
+  <div id="date-ok" class="small text-success"><i class="fa-solid fa-check"></i> Riconosciuto</div>
+      </div>
+
+      <section class="card reveal">
+        <div class="row jc-between ai-center">
+          <div><i class="fa-solid fa-robot" aria-hidden="true"></i> Categoria suggerita: <strong>Alimentari</strong></div>
+          <div class="row">
+            <button class="btn btn-outline">Accetta</button>
+            <button class="btn btn-ghost">Cambia</button>
+          </div>
+        </div>
+      </section>
+
+  <button class="btn btn-primary btn-block mt-16 reveal"><i class="fa-solid fa-floppy-disk"></i> Salva Transazione</button>
+
+      <div class="bottom-space"></div>
+    </main>
+  </div>
+</body>
+</html>

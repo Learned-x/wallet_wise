@@ -1,0 +1,51 @@
+<svg width="375" height="812" viewBox="0 0 375 812" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Report">
+  <rect width="375" height="812" fill="#F7F9F8"/>
+  <!-- Topbar -->
+  <rect x="0" y="0" width="375" height="56" fill="#FFFFFF" stroke="#E0E6E2"/>
+  <rect x="12" y="12" width="32" height="32" rx="8" fill="#EEF5F1"/>
+  <rect x="331" y="12" width="32" height="32" rx="8" fill="#EEF5F1"/>
+  <rect x="122" y="17" width="131" height="22" rx="6" fill="#DDE6E1"/>
+  <text x="28" y="29" font-size="18" fill="#1F2A1F" text-anchor="middle" dominant-baseline="middle">←</text>
+  <text x="347" y="28" font-size="16" fill="#1F2A1F" text-anchor="middle" dominant-baseline="middle">⋯</text>
+  <text x="188" y="30" font-size="16" fill="#1F2A1F" text-anchor="middle">Report</text>
+
+  <!-- Riepilogo card -->
+  <rect x="24" y="76" width="327" height="128" rx="14" fill="#FFFFFF" stroke="#E0E6E2"/>
+  <text x="188" y="90" font-size="14" fill="#1F2A1F" text-anchor="middle">Riepilogo</text>
+  <rect x="40" y="96" width="70" height="12" rx="6" fill="#DDE6E1"/>
+  <rect x="232" y="96" width="80" height="12" rx="6" fill="#DDE6E1"/>
+  <rect x="40" y="114" width="70" height="12" rx="6" fill="#DDE6E1"/>
+  <rect x="232" y="114" width="80" height="12" rx="6" fill="#DDE6E1"/>
+  <rect x="24" y="152" width="327" height="1" fill="#E0E6E2"/>
+  <rect x="40" y="160" width="70" height="12" rx="6" fill="#DDE6E1"/>
+  <rect x="232" y="160" width="80" height="12" rx="6" fill="#DDE6E1"/>
+
+  <!-- Pie + legend card -->
+  <rect x="24" y="220" width="327" height="150" rx="14" fill="#FFFFFF" stroke="#E0E6E2"/>
+  <text x="188" y="236" font-size="14" fill="#1F2A1F" text-anchor="middle">Categorie</text>
+  <circle cx="94" cy="295" r="52" fill="#E7EFEA"/>
+  <path d="M94,243 A52,52 0 0,1 131,337 L94,295 Z" fill="#2E7D5B"/>
+  <path d="M131,337 A52,52 0 0,1 56,315 L94,295 Z" fill="#9CCC9C"/>
+  <path d="M56,315 A52,52 0 0,1 94,243 L94,295 Z" fill="#CFE2D8"/>
+  <rect x="160" y="250" width="150" height="70" rx="8" fill="#F7F9F8" stroke="#E0E6E2"/>
+
+  <!-- Bars card -->
+  <rect x="24" y="382" width="327" height="160" rx="14" fill="#FFFFFF" stroke="#E0E6E2"/>
+  <text x="188" y="398" font-size="14" fill="#1F2A1F" text-anchor="middle">Andamento</text>
+  <rect x="60" y="510" width="40" height="16" rx="8" fill="#EEF2EF"/>
+  <rect x="80" y="406" width="24" height="60" rx="8" fill="#E7F2EC"/>
+  <rect x="140" y="406" width="24" height="120" rx="8" fill="#2E7D5B"/>
+  <rect x="200" y="406" width="24" height="90" rx="8" fill="#9CCC9C"/>
+  <rect x="260" y="406" width="24" height="70" rx="8" fill="#5E8F78"/>
+
+  <!-- Top 5 -->
+  <rect x="24" y="560" width="327" height="190" rx="14" fill="#FFFFFF" stroke="#E0E6E2"/>
+  <text x="188" y="576" font-size="14" fill="#1F2A1F" text-anchor="middle">Top 5 spese</text>
+  <g>
+    <rect x="40" y="580" width="295" height="30" rx="8" fill="#F7F9F8"/>
+    <rect x="40" y="616" width="295" height="30" rx="8" fill="#F7F9F8"/>
+    <rect x="40" y="652" width="295" height="30" rx="8" fill="#F7F9F8"/>
+    <rect x="40" y="688" width="295" height="30" rx="8" fill="#F7F9F8"/>
+    <rect x="40" y="724" width="295" height="30" rx="8" fill="#F7F9F8"/>
+  </g>
+</svg>

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Transazioni</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Salta al contenuto</a>
+  <div class="app">
+    <header class="topbar">
+      <button class="icon-btn" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+      <div class="title">Transazioni</div>
+      <div class="header-actions">
+        <button class="icon-btn" aria-label="Cerca"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button class="icon-btn" aria-label="Altro"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </div>
+    </header>
+
+    <main id="main" class="container">
+      <div class="chips reveal" role="group" aria-label="Filtri">
+        <button class="chip" aria-pressed="true">Tutte</button>
+        <button class="chip">Mese: Settembre</button>
+        <button class="chip">Categoria: Tutte</button>
+      </div>
+
+      <section class="card mt-16 reveal">
+        <div class="row jc-between">
+          <strong>SETTEMBRE 2025</strong>
+          <div class="row">
+            <span class="small"><i class="fa-solid fa-sack-dollar"></i> +€2.100</span>
+            <span class="small ml-10"><i class="fa-solid fa-money-bill-1-wave"></i> -€645</span>
+          </div>
+        </div>
+        <div class="small mt-6">Saldo: <strong>+€1.455</strong></div>
+      </section>
+
+      <p class="small my-16">◀ Swipe per modificare (simulato)</p>
+
+      <section class="list reveal">
+        <article class="list-item">
+          <div class="icon"><i class="fa-solid fa-pizza-slice"></i></div>
+          <div>
+            <div>Spesa Esselunga <span class="small">• Alimentari</span></div>
+            <div class="meta">13/09</div>
+          </div>
+          <div>-€25,50</div>
+        </article>
+        <article class="list-item">
+          <div class="icon"><i class="fa-solid fa-gas-pump"></i></div>
+          <div>
+            <div>Benzina IP <span class="small">• Trasporti</span></div>
+            <div class="meta">12/09</div>
+          </div>
+          <div>-€45,00</div>
+        </article>
+        <article class="list-item">
+          <div class="icon"><i class="fa-solid fa-house"></i></div>
+          <div>
+            <div>Affitto <span class="small">• Casa</span></div>
+            <div class="meta">01/09</div>
+          </div>
+          <div>-€800,00</div>
+        </article>
+        <article class="list-item">
+          <div class="icon"><i class="fa-solid fa-sack-dollar"></i></div>
+          <div>
+            <div>Stipendio <span class="small">• Lavoro</span></div>
+            <div class="meta">01/09</div>
+          </div>
+          <div class="text-success">+€2.100,00</div>
+        </article>
+      </section>
+
+      <div class="center my-16">
+        <button class="btn btn-outline">Carica altri</button>
+      </div>
+
+      <div class="bottom-space"></div>
+    </main>
+
+    <nav class="bottom-nav" role="navigation" aria-label="Navigazione inferiore">
+      <a href="dashboard.html" aria-label="Home"><i class="fa-solid fa-house"></i><span class="visually-hidden">Home</span></a>
+      <a href="report.html" aria-label="Report"><i class="fa-solid fa-chart-pie"></i><span class="visually-hidden">Report</span></a>
+      <a href="camera-ocr.html" aria-label="Fotocamera"><i class="fa-solid fa-camera"></i><span class="visually-hidden">Fotocamera</span></a>
+      <a href="health-score.html" aria-label="Health Score"><i class="fa-solid fa-gauge-high"></i><span class="visually-hidden">Health Score</span></a>
+      <a href="settings.html" aria-label="Impostazioni"><i class="fa-solid fa-gear"></i><span class="visually-hidden">Impostazioni</span></a>
+    </nav>
+  </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  analyze_and_test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.32.8'
+      - name: Get dependencies
+        run: flutter pub get
+      - name: Run code generation (build_runner)
+        run: flutter pub run build_runner build --delete-conflicting-outputs
+      - name: Analyze
+        run: flutter analyze --no-preamble
+      - name: Run tests
+        run: flutter test --coverage -r expanded
+      - name: Run integration tests
+        run: flutter test test/integration -r expanded
+      - name: Upload coverage artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-lcov
+          path: coverage/lcov.info
+
+      - name: Show coverage preview
+        if: always()
+        run: |
+          if [ -f coverage/lcov.info ]; then
+            echo '--- coverage/lcov.info (head) ---'
+            head -n 50 coverage/lcov.info || true
+          else
+            echo 'coverage/lcov.info not found'
+          fi
+
+      - name: Upload to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          files: coverage/lcov.info
+          token: ${{ secrets.CODECOV_TOKEN }}

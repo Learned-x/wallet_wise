@@ -1,0 +1,36 @@
+<svg width="375" height="812" viewBox="0 0 375 812" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Camera OCR">
+  <rect width="375" height="812" fill="#F7F9F8"/>
+  <!-- Topbar -->
+  <rect x="0" y="0" width="375" height="56" fill="#FFFFFF" stroke="#E0E6E2"/>
+  <rect x="12" y="12" width="32" height="32" rx="8" fill="#EEF5F1"/>
+  <rect x="331" y="12" width="32" height="32" rx="8" fill="#EEF5F1"/>
+  <rect x="116" y="17" width="143" height="22" rx="6" fill="#DDE6E1"/>
+  <text x="28" y="29" font-size="18" fill="#1F2A1F" text-anchor="middle" dominant-baseline="middle">←</text>
+  <text x="347" y="28" font-size="16" fill="#1F2A1F" text-anchor="middle" dominant-baseline="middle">⚙</text>
+  <text x="188" y="30" font-size="16" fill="#1F2A1F" text-anchor="middle">Scanner</text>
+
+  <!-- Viewfinder -->
+  <rect x="24" y="92" width="327" height="320" rx="18" fill="#F1F6F3" stroke="#9FB8AC" stroke-dasharray="8 8"/>
+  <rect x="96" y="428" width="183" height="12" rx="6" fill="#CBD7D0"/>
+  <text x="188" y="452" font-size="12" fill="#65756A" text-anchor="middle">Allinea lo scontrino nei bordi</text>
+
+  <!-- Controls Row -->
+  <rect x="48" y="468" width="60" height="40" rx="12" fill="#FFFFFF" stroke="#E0E6E2"/>
+  <text x="78" y="492" font-size="14" text-anchor="middle" fill="#1F2A1F">↻</text>
+  <circle cx="188" cy="488" r="36" fill="#FFFFFF" stroke="#2E7D5B" stroke-width="4"/>
+  <text x="188" y="492" font-size="16" text-anchor="middle" fill="#1F2A1F">●</text>
+  <rect x="268" y="468" width="60" height="40" rx="12" fill="#FFFFFF" stroke="#E0E6E2"/>
+  <text x="298" y="492" font-size="14" text-anchor="middle" fill="#1F2A1F">☰</text>
+
+  <!-- Help text -->
+  <rect x="84" y="520" width="207" height="12" rx="6" fill="#CBD7D0"/>
+  <text x="188" y="548" font-size="12" fill="#65756A" text-anchor="middle">Suggerimento: luce naturale aiuta l'OCR</text>
+
+  <!-- Bottom Nav -->
+  <rect x="0" y="748" width="375" height="64" fill="#FFFFFF" stroke="#E0E6E2"/>
+  <text x="46" y="775" font-size="16" text-anchor="middle">🏠</text>
+  <text x="122" y="775" font-size="16" text-anchor="middle">📊</text>
+  <text x="198" y="775" font-size="16" text-anchor="middle">📷</text>
+  <text x="274" y="775" font-size="16" text-anchor="middle">🧭</text>
+  <text x="350" y="775" font-size="16" text-anchor="middle">⚙</text>
+</svg>
