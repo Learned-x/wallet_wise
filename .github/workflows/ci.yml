@@ -42,7 +42,6 @@ jobs:
           fi
 
       - name: Upload to Codecov
-        if: ${{ secrets.CODECOV_TOKEN != '' }}
         uses: codecov/codecov-action@v4
         with:
           files: coverage/lcov.info
