@@ -1,5 +1,6 @@
 import 'package:get_it/get_it.dart';
 import 'logger.dart';
+import 'logging/console_logger.dart';
 import '../data/repositories/in_memory_transactions_repository.dart';
 import '../data/repositories/in_memory_categories_repository.dart';
 import '../data/repositories/in_memory_settings_repository.dart';
@@ -17,9 +18,7 @@ import '../data/repositories/drift_health_score_repository.dart';
 final GetIt locator = GetIt.instance;
 
 Future<void> initDI({bool useInMemory = true}) async {
-  locator.registerLazySingleton<Logger>(() => ConsoleLogger());
-
-  if (useInMemory) {
+    if (useInMemory) {
     locator.registerLazySingleton<TransactionsRepository>(
         () => InMemoryTransactionsRepository());
     locator.registerLazySingleton<CategoriesRepository>(
@@ -42,6 +41,9 @@ Future<void> initDI({bool useInMemory = true}) async {
     locator.registerLazySingleton<HealthScoreRepository>(
         () => DriftHealthScoreRepository(db));
   }
+
+    // Register default console logger for now
+        locator.registerLazySingleton<Logger>(() => StructuredConsoleLogger());
 }
 
 Future<AppDatabase> _initAppDatabase() async {
