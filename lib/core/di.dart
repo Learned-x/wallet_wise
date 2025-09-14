@@ -29,9 +29,9 @@ Future<void> initDI({bool useInMemory = true}) async {
     locator.registerLazySingleton<HealthScoreRepository>(
         () => InMemoryHealthScoreRepository());
   } else {
-        final db = await _initAppDatabase();
-        // Ensure DB is initialized and seeded before registering repositories
-        await db.initialize();
+    final db = await _initAppDatabase();
+    // Ensure DB is initialized and seeded before registering repositories
+    await db.initialize();
     locator.registerLazySingleton<AppDatabase>(() => db);
     locator.registerLazySingleton<TransactionsRepository>(
         () => DriftTransactionsRepository(db));

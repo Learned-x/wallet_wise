@@ -33,5 +33,31 @@ Verifiche end-to-end
 CI
  - Il workflow CI è stato aggiornato per eseguire codegen e i test di integrazione (cartella `test/integration`) dopo i test unitari. Se aggiungi test di integrazione che richiedono emulatori o dispositivi, aggiorna il job CI per avviare gli emulatori necessari.
 
+Esempi pratici
+
+Android (gradle)
+
+1. Aggiungi la dipendenza in `pubspec.yaml`: `sqflite_sqlcipher: ^2.0.0` oppure `sqlite3_flutter_libs`.
+2. In `android/app/build.gradle` assicurati che `minSdkVersion` sia >= 21 e aggiungi eventuali `packagingOptions` se richiesto:
+
+```gradle
+android {
+	defaultConfig {
+		minSdkVersion 21
+	}
+
+	packagingOptions {
+		exclude 'META-INF/*'
+	}
+}
+```
+
+iOS (Podfile)
+
+1. Se usi `sqflite_sqlcipher`, apri `ios/Podfile` e assicurati di usare frameworks e di aggiungere eventuali flags di linking richieste dalla libreria.
+2. Esegui `cd ios && pod install` dopo aver aggiornato `pubspec.yaml`.
+
+Nota: le istruzioni esatte dipendono dalla libreria scelta; consultare sempre la documentazione su pub.dev.
+
 Nota
 - Le istruzioni specifiche dipendono dalla libreria scelta (`sqflite_sqlcipher` vs `sqlite3_flutter_libs`). Consultare le rispettive pagine pub.dev per i dettagli aggiornati.

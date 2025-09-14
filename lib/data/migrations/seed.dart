@@ -18,14 +18,14 @@ Future<void> seedDefaultCategories(AppDatabase db) async {
   for (var i = 0; i < defaults.length; i++) {
     final id = defaults[i].value;
     await db.into(db.categories).insertOnConflictUpdate(
-      CategoriesCompanion(
-        id: Value(id),
-        name: Value(id),
-        sortOrder: Value(i),
-        isCustom: const Value(false),
-        isIncome: Value(id == 'income'),
-        createdAt: Value(DateTime.now()),
-      ),
-    );
+          CategoriesCompanion(
+            id: Value(id),
+            name: Value(id),
+            sortOrder: Value(i),
+            isCustom: const Value(false),
+            isIncome: Value(id == 'income'),
+            createdAt: Value(DateTime.now()),
+          ),
+        );
   }
 }

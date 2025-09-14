@@ -18,8 +18,8 @@ class DriftTransactionsRepository implements TransactionsRepository {
       amount: Value(transaction.amount.value),
       categoryId: Value(transaction.categoryId.value),
       description: Value(transaction.description),
-  date: Value(transaction.date.value),
-  photoPath: const Value.absent(),
+      date: Value(transaction.date.value),
+      photoPath: const Value.absent(),
       createdAt: Value(DateTime.now()),
     );
     await _db.into(_db.transactions).insertOnConflictUpdate(companion);
